@@ -6,27 +6,27 @@ const SHOP_DATA = {
       items: [
         {
           id: 1,
-          name: 'Brown Brim',
-          imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+          name: 'Green Beanie',
+          imageUrl: 'https://images.unsplash.com/photo-1547937457-9941863331c8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1609&q=80',
           price: 25
         },
         {
           id: 2,
-          name: 'Blue Beanie',
-          imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+          name: 'Grey Brim',
+          imageUrl: 'https://images.unsplash.com/photo-1474031317822-f51f48735ddd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80',
           price: 18
         },
         {
           id: 3,
-          name: 'Brown Cowboy',
-          imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+          name: 'Orange Beanie',
+          imageUrl: 'https://images.unsplash.com/photo-1601988404913-608c4e512ad4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=945&q=80',
           price: 35
         },
         {
           id: 4,
-          name: 'Grey Brim',
-          imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-          price: 25
+          name: 'White Beanie',
+          imageUrl: 'https://images.unsplash.com/photo-1514867312438-db0960ee52e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1634&q=80',
+          price: 15
         },
         {
           id: 5,
@@ -57,7 +57,13 @@ const SHOP_DATA = {
           name: 'Blue Snapback',
           imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
           price: 16
-        }
+        },
+        {
+          id: 10,
+          name: 'Grey Brim',
+          imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+          price: 25
+        },
       ]
     },
     sneakers: {
