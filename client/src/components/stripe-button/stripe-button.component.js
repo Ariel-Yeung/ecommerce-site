@@ -25,21 +25,21 @@ const StripeCheckoutButton = ({ price }) => {
           );
         });
     };
-    
-      return (
-        <StripeCheckout
-          label='Pay Now'
-          name='Ecommerce Company Ltd.'
-          billingAddress
-          shippingAddress
-          image='https://svgshare.com/i/CUz.svg'
-          description={`Your total is $${price}`}
-          amount={priceForStripe}
-          panelLabel='Pay Now'
-          token={onToken}
-          stripeKey={publishableKey}
-        />
+  
+    return (
+      <StripeCheckout
+        label='Pay Now'
+        name='CRWN Clothing Ltd.'
+        billingAddress
+        shippingAddress
+        image='https://svgshare.com/i/CUz.svg'
+        description={`Your total is $${price}`}
+        amount={priceForStripe}
+        panelLabel='Pay Now'
+        token={onToken}
+        stripeKey={publishableKey}
+      />
     );
-};
-    
-export default StripeCheckoutButton;
+  };
+  
+  export default StripeCheckoutButton;
