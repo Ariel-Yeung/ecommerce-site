@@ -18,7 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This e-commerce web application is mock website for a (fake) clothing company. 
+This e-commerce web application is mock website for a (made-up) clothing company. 
 
 ### Built With
 
